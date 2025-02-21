@@ -11,7 +11,8 @@ class MiWidget extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Balderrama", style: TextStyle(color: Colors.black)),
+          title:
+              const Text("Balderrama", style: TextStyle(color: Colors.black)),
           backgroundColor: Color(0xff82dca4),
           centerTitle: true,
         ),
